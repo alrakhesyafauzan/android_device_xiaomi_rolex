@@ -1,0 +1,5 @@
+allow init vendor_file:file execute_no_trans;
+allow init hwservicemanager:binder { call transfer search read open getattr };
+allow init shell_exec:file execute_no_trans;
+allow init vendor_toolbox_exec:file execute_no_trans;
+allow init socket_device:sock_file { create setattr };

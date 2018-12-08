@@ -1,0 +1,5 @@
+allow toolbox init:fifo_file { write getattr };
+allow toolbox rmne_tux_prop:file { read open getattr };
+allow toolbox property_socket:file write;
+allow toolbox init:unix_stream_socket connecto;
+allow toolbox system_prop:property_service set;

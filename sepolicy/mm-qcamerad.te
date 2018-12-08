@@ -1,0 +1,4 @@
+allow mm-qcamerad camera_data_file:sock_file { unlink create };
+allow mm-qcamerad servicemanager:binder call;
+allow mm-qcamerad sysfs:file { read open getattr };
+allow mm-qcamerad system_server:unix_stream_socket { read write };

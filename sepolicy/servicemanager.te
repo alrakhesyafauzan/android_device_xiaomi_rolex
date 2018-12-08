@@ -1,0 +1,1 @@
+allow servicemanager mm-qcamerad:dir { search read open getattr };
