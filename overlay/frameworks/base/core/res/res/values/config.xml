@@ -333,7 +333,4 @@
 
     <!-- Whether device supports double tap to wake -->
     <bool name="config_supportDoubleTapWake">true</bool>
-
-    <!-- doze always on -->
-    <bool name="config_enableDozeAlwaysOn">false</bool>
 </resources>

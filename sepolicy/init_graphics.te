@@ -15,6 +15,6 @@ allow init_graphics sysfs_graphics:file {rw_file_perms setattr};
 allow init_graphics sysfs_kgsl:file r_file_perms;
 
 allow init_graphics property_socket:sock_file write;
-allow init_graphics init:unix_stream_socket connecto;
+allow init_graphics init:unix_stream_socket connectto;
 allow init_graphics { debug_gralloc_prop freq_prop }:property_service set;
 allow init_graphics sysfs:file { getattr setattr };
